@@ -12,8 +12,21 @@ body {
   object-fit: cover;
 }
 
-.row img{
+.row img {
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
+
+.card {
+  margin-bottom: 10px;
+}
+.card img {
+  width: 100%;
+}
+/* Ex 8) Add to the Welcome Summer destinations section a large shadow */
+.welcome-summer-wrap .col .card {
+  box-shadow: whitesmoke 0px 0px 10px 10px;
+  margin: 20px;
+}
+/* is 10px a large enough? and white shadow is soooo coooool */
