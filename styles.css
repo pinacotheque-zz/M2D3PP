@@ -12,8 +12,15 @@ body {
   object-fit: cover;
 }
 
-.row img{
+.row img {
   width: 200px;
   height: 200px;
   object-fit: cover;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+.card img {
+  width: 100%;
 }
