@@ -18,3 +18,21 @@ window.onload = function () {
 };
 
 // Ex 16) Create a function to delete all "cards" from the page
+const badFunction = function () {
+  let cards = document.querySelectorAll(".card");
+  let badButton = document.createElement("button");
+  badButton.classList.add("btn");
+  badButton.classList.add("btn-warning");
+  badButton.innerText = "remove all the cards";
+  document.querySelector("nav").appendChild(badButton);
+  badButton.onclick = function () {
+    for (let i = 0; i < cards.length; i++) {
+      cards[i].remove();
+    }
+    document.querySelector(".welcome-summer-wrap").scrollIntoView();
+    alert(
+      `all the card has been removed, refresh the page to see them again cos I was too lazy to make them reappear on another click`
+    );
+  };
+};
+badFunction();
