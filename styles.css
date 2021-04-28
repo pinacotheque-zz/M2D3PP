@@ -1,4 +1,13 @@
+/* All the styles can go in here */
+* {
+  margin: 0px;
+}
 body {
   background-color: #892be2a9;
-  color: red;
+  font-family: "Open Sans", sans-serif;
+}
+#logo {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
 }
