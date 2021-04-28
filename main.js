@@ -31,7 +31,9 @@ const badFunction = function () {
     }
     document.querySelector(".welcome-summer-wrap").scrollIntoView();
     alert(
-      `all the card has been removed, refresh the page to see them again cos I was too lazy to make them reappear on another click`
+      `all the card has been removed, 
+      refresh the page to see them again. 
+      cos I was too lazy to make them reappear on another click`
     );
   };
 };
